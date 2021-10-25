@@ -3,16 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20DA63125E1BFD400EE74E3 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20DA63025E1BFD400EE74E3 /* PostView.swift */; };
+		F20F6DCB25DF430700D87564 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20F6DCA25DF430700D87564 /* Feed.swift */; };
+		F20F6DD025DF487900D87564 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20F6DCF25DF487900D87564 /* Take.swift */; };
+		F212B7142618D054005E2C6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212B7132618D054005E2C6B /* User.swift */; };
 		F216201B25DCACAE008DC43D /* Hot_TakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216201A25DCACAE008DC43D /* Hot_TakeApp.swift */; };
 		F216201D25DCACAE008DC43D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216201C25DCACAE008DC43D /* ContentView.swift */; };
 		F216201F25DCACAF008DC43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F216201E25DCACAF008DC43D /* Assets.xcassets */; };
 		F216202225DCACAF008DC43D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F216202125DCACAF008DC43D /* Preview Assets.xcassets */; };
 		F216202D25DCACAF008DC43D /* Hot_TakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216202C25DCACAF008DC43D /* Hot_TakeTests.swift */; };
 		F216203825DCACAF008DC43D /* Hot_TakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216203725DCACAF008DC43D /* Hot_TakeUITests.swift */; };
+		F216204B25DCB02B008DC43D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216204A25DCB02B008DC43D /* Home.swift */; };
+		F228EEDC2630FB8C0099ADFE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228EEDB2630FB8C0099ADFE /* Timeline.swift */; };
+		F2465DF8260FEBB300D1BB12 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2465DF7260FEBB300D1BB12 /* EditProfile.swift */; };
+		F257272C25E08DF2002C2B84 /* ScrollableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257272B25E08DF2002C2B84 /* ScrollableTabBar.swift */; };
+		F2879DDD263A3361003AFD3B /* Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2879DDC263A3361003AFD3B /* Follow.swift */; };
+		F2879DE3263A38D6003AFD3B /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2879DE2263A38D6003AFD3B /* Functions.swift */; };
+		F294315C2633868000D18E4F /* checkProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F294315B2633868000D18E4F /* checkProfile.swift */; };
+		F29F519C2638E85700578865 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F519B2638E85700578865 /* Class.swift */; };
+		F29F51A12638EAC100578865 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F51A02638EAC100578865 /* Like.swift */; };
+		F2A1536D262DCC4D0081E0B1 /* checkLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1536C262DCC4D0081E0B1 /* checkLike.swift */; };
+		F2A564B925E72EEE00D6FD37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2A564B825E72EEE00D6FD37 /* GoogleService-Info.plist */; };
+		F2A564BF25E7311700D6FD37 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F2A564BE25E7311700D6FD37 /* FirebaseAuth */; };
+		F2A564C125E7311700D6FD37 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F2A564C025E7311700D6FD37 /* FirebaseFirestore */; };
+		F2A564C325E7311700D6FD37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F2A564C225E7311700D6FD37 /* FirebaseStorage */; };
+		F2A564D125E731A000D6FD37 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A564CA25E7319E00D6FD37 /* Login.swift */; };
+		F2A564D225E731A000D6FD37 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A564CE25E7319F00D6FD37 /* LoadingScreen.swift */; };
+		F2A564D325E731A000D6FD37 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A564CF25E7319F00D6FD37 /* CustomCorner.swift */; };
+		F2A564D425E731A000D6FD37 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A564D025E731A000D6FD37 /* SignUp.swift */; };
+		F2A75E4E261D3804003A8029 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A75E4D261D3804003A8029 /* ErrorView.swift */; };
+		F2A75E59261D3B79003A8029 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A75E58261D3B79003A8029 /* Main.swift */; };
+		F2AEECC3261690B0001FBF86 /* likeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEECC2261690B0001FBF86 /* likeView.swift */; };
+		F2E19A9D260BFC6E0007D814 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E19A9C260BFC6E0007D814 /* Profile.swift */; };
+		F2E8CD412609424B00054C27 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2E8CD402609424B00054C27 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20DA63025E1BFD400EE74E3 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		F20F6DCA25DF430700D87564 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		F20F6DCF25DF487900D87564 /* Take.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take.swift; sourceTree = "<group>"; };
+		F21009E225E6C21500F7A98F /* Hot Take.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hot Take.entitlements"; sourceTree = "<group>"; };
+		F212B7132618D054005E2C6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F216201725DCACAE008DC43D /* Hot Take.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Take.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F216201A25DCACAE008DC43D /* Hot_TakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_TakeApp.swift; sourceTree = "<group>"; };
 		F216201C25DCACAE008DC43D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +77,25 @@
 		F216203325DCACAF008DC43D /* Hot TakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot TakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F216203725DCACAF008DC43D /* Hot_TakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_TakeUITests.swift; sourceTree = "<group>"; };
 		F216203925DCACB0008DC43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F216204A25DCB02B008DC43D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F228EEDB2630FB8C0099ADFE /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		F2465DF7260FEBB300D1BB12 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		F257272B25E08DF2002C2B84 /* ScrollableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabBar.swift; sourceTree = "<group>"; };
+		F2879DDC263A3361003AFD3B /* Follow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follow.swift; sourceTree = "<group>"; };
+		F2879DE2263A38D6003AFD3B /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		F294315B2633868000D18E4F /* checkProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkProfile.swift; sourceTree = "<group>"; };
+		F29F519B2638E85700578865 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		F29F51A02638EAC100578865 /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		F2A1536C262DCC4D0081E0B1 /* checkLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkLike.swift; sourceTree = "<group>"; };
+		F2A564B825E72EEE00D6FD37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2A564CA25E7319E00D6FD37 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F2A564CE25E7319F00D6FD37 /* LoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		F2A564CF25E7319F00D6FD37 /* CustomCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		F2A564D025E731A000D6FD37 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		F2A75E4D261D3804003A8029 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		F2A75E58261D3B79003A8029 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F2AEECC2261690B0001FBF86 /* likeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likeView.swift; sourceTree = "<group>"; };
+		F2E19A9C260BFC6E0007D814 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A564BF25E7311700D6FD37 /* FirebaseAuth in Frameworks */,
+				F2E8CD412609424B00054C27 /* IQKeyboardManagerSwift in Frameworks */,
+				F2A564C125E7311700D6FD37 /* FirebaseFirestore in Frameworks */,
+				F2A564C325E7311700D6FD37 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +150,15 @@
 		F216201925DCACAE008DC43D /* Hot Take */ = {
 			isa = PBXGroup;
 			children = (
+				F2879DE1263A38BC003AFD3B /* Function */,
+				F21009E225E6C21500F7A98F /* Hot Take.entitlements */,
+				F216204925DCAFFB008DC43D /* View */,
+				F216204825DCAFF6008DC43D /* Model */,
 				F216201A25DCACAE008DC43D /* Hot_TakeApp.swift */,
 				F216201C25DCACAE008DC43D /* ContentView.swift */,
 				F216201E25DCACAF008DC43D /* Assets.xcassets */,
 				F216202325DCACAF008DC43D /* Info.plist */,
+				F2A564B825E72EEE00D6FD37 /* GoogleService-Info.plist */,
 				F216202025DCACAF008DC43D /* Preview Content */,
 			);
 			path = "Hot Take";
@@ -130,6 +190,49 @@
 			path = "Hot TakeUITests";
 			sourceTree = "<group>";
 		};
+		F216204825DCAFF6008DC43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F20F6DCF25DF487900D87564 /* Take.swift */,
+				F212B7132618D054005E2C6B /* User.swift */,
+				F29F51A02638EAC100578865 /* Like.swift */,
+				F2879DDC263A3361003AFD3B /* Follow.swift */,
+				F29F519B2638E85700578865 /* Class.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F216204925DCAFFB008DC43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2A564CF25E7319F00D6FD37 /* CustomCorner.swift */,
+				F2A564CE25E7319F00D6FD37 /* LoadingScreen.swift */,
+				F2A564CA25E7319E00D6FD37 /* Login.swift */,
+				F2A564D025E731A000D6FD37 /* SignUp.swift */,
+				F2A75E58261D3B79003A8029 /* Main.swift */,
+				F216204A25DCB02B008DC43D /* Home.swift */,
+				F228EEDB2630FB8C0099ADFE /* Timeline.swift */,
+				F20F6DCA25DF430700D87564 /* Feed.swift */,
+				F257272B25E08DF2002C2B84 /* ScrollableTabBar.swift */,
+				F20DA63025E1BFD400EE74E3 /* PostView.swift */,
+				F2E19A9C260BFC6E0007D814 /* Profile.swift */,
+				F294315B2633868000D18E4F /* checkProfile.swift */,
+				F2A1536C262DCC4D0081E0B1 /* checkLike.swift */,
+				F2AEECC2261690B0001FBF86 /* likeView.swift */,
+				F2465DF7260FEBB300D1BB12 /* EditProfile.swift */,
+				F2A75E4D261D3804003A8029 /* ErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2879DE1263A38BC003AFD3B /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				F2879DE2263A38D6003AFD3B /* Functions.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +249,12 @@
 			dependencies = (
 			);
 			name = "Hot Take";
+			packageProductDependencies = (
+				F2A564BE25E7311700D6FD37 /* FirebaseAuth */,
+				F2A564C025E7311700D6FD37 /* FirebaseFirestore */,
+				F2A564C225E7311700D6FD37 /* FirebaseStorage */,
+				F2E8CD402609424B00054C27 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Hot Take";
 			productReference = F216201725DCACAE008DC43D /* Hot Take.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +326,10 @@
 				Base,
 			);
 			mainGroup = F216200E25DCACAE008DC43D;
+			packageReferences = (
+				F2A564BD25E7311700D6FD37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F2E8CD3F2609424A00054C27 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F216201825DCACAE008DC43D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A564B925E72EEE00D6FD37 /* GoogleService-Info.plist in Resources */,
 				F216202225DCACAF008DC43D /* Preview Assets.xcassets in Resources */,
 				F216201F25DCACAF008DC43D /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +373,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E19A9D260BFC6E0007D814 /* Profile.swift in Sources */,
+				F2A564D225E731A000D6FD37 /* LoadingScreen.swift in Sources */,
+				F2A75E59261D3B79003A8029 /* Main.swift in Sources */,
+				F2A564D125E731A000D6FD37 /* Login.swift in Sources */,
+				F2A1536D262DCC4D0081E0B1 /* checkLike.swift in Sources */,
+				F294315C2633868000D18E4F /* checkProfile.swift in Sources */,
+				F257272C25E08DF2002C2B84 /* ScrollableTabBar.swift in Sources */,
+				F2879DDD263A3361003AFD3B /* Follow.swift in Sources */,
+				F2A564D425E731A000D6FD37 /* SignUp.swift in Sources */,
+				F29F51A12638EAC100578865 /* Like.swift in Sources */,
+				F20DA63125E1BFD400EE74E3 /* PostView.swift in Sources */,
+				F2879DE3263A38D6003AFD3B /* Functions.swift in Sources */,
+				F29F519C2638E85700578865 /* Class.swift in Sources */,
+				F212B7142618D054005E2C6B /* User.swift in Sources */,
 				F216201D25DCACAE008DC43D /* ContentView.swift in Sources */,
+				F2465DF8260FEBB300D1BB12 /* EditProfile.swift in Sources */,
+				F2A75E4E261D3804003A8029 /* ErrorView.swift in Sources */,
+				F228EEDC2630FB8C0099ADFE /* Timeline.swift in Sources */,
+				F20F6DCB25DF430700D87564 /* Feed.swift in Sources */,
+				F2AEECC3261690B0001FBF86 /* likeView.swift in Sources */,
+				F216204B25DCB02B008DC43D /* Home.swift in Sources */,
+				F2A564D325E731A000D6FD37 /* CustomCorner.swift in Sources */,
+				F20F6DD025DF487900D87564 /* Take.swift in Sources */,
 				F216201B25DCACAE008DC43D /* Hot_TakeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hot Take/Hot Take.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hot Take/Preview Content\"";
 				DEVELOPMENT_TEAM = 8W3WXR362E;
@@ -439,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hot Take/Hot Take.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hot Take/Preview Content\"";
 				DEVELOPMENT_TEAM = 8W3WXR362E;
@@ -580,6 +718,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2A564BD25E7311700D6FD37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.7.0;
+			};
+		};
+		F2E8CD3F2609424A00054C27 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2A564BE25E7311700D6FD37 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2A564BD25E7311700D6FD37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F2A564C025E7311700D6FD37 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2A564BD25E7311700D6FD37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F2A564C225E7311700D6FD37 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2A564BD25E7311700D6FD37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F2E8CD402609424B00054C27 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2E8CD3F2609424A00054C27 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F216200F25DCACAE008DC43D /* Project object */;
 }

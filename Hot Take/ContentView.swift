@@ -1,16 +1,10 @@
-//
-//  ContentView.swift
-//  Hot Take
-//
-//  Created by John Reichel on 2/16/21.
-//
-
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Main()
     }
 }
 
@@ -19,3 +13,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
