@@ -130,7 +130,7 @@
 		F216200E25DCACAE008DC43D = {
 			isa = PBXGroup;
 			children = (
-				F216201925DCACAE008DC43D /* Hot Take */,
+				F216201925DCACAE008DC43D /* Hot Take Main */,
 				F216202B25DCACAF008DC43D /* Hot TakeTests */,
 				F216203625DCACAF008DC43D /* Hot TakeUITests */,
 				F216201825DCACAE008DC43D /* Products */,
@@ -147,7 +147,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F216201925DCACAE008DC43D /* Hot Take */ = {
+		F216201925DCACAE008DC43D /* Hot Take Main */ = {
 			isa = PBXGroup;
 			children = (
 				F2879DE1263A38BC003AFD3B /* Function */,
@@ -161,7 +161,7 @@
 				F2A564B825E72EEE00D6FD37 /* GoogleService-Info.plist */,
 				F216202025DCACAF008DC43D /* Preview Content */,
 			);
-			path = "Hot Take";
+			path = "Hot Take Main";
 			sourceTree = "<group>";
 		};
 		F216202025DCACAF008DC43D /* Preview Content */ = {
